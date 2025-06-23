@@ -3,9 +3,11 @@
 GET {{ContosoPizza_HostAddress}}/weatherforecast/
 Accept: application/json
 
+###
 GET {{ContosoPizza_HostAddress}}/weatherforecast/1
 Accept: application/json
 
+###
 POST {{ContosoPizza_HostAddress}}/weatherforecast/
 Content-Type: application/json
 
@@ -20,9 +22,11 @@ Content-Type: application/json
 GET {{ContosoPizza_HostAddress}}/pizza/
 Accept: application/json
 
+###
 GET {{ContosoPizza_HostAddress}}/pizza/1
 Accept: application/json
 
+### 
 POST {{ContosoPizza_HostAddress}}/pizza/
 Content-Type: application/json
 
@@ -32,6 +36,7 @@ Content-Type: application/json
   "isGlutenFree": true
 }
 
+###
 PUT {{ContosoPizza_HostAddress}}/pizza/3
 Content-Type: application/json
 
@@ -41,4 +46,5 @@ Content-Type: application/json
   "isGlutenFree": true
 }
 
+###
 DELETE {{ContosoPizza_HostAddress}}/pizza/3
