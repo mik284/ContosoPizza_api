@@ -1,3 +1,4 @@
+using ContosoPizza.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ContosoPizza.Controllers;
